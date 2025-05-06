@@ -5,6 +5,68 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/Matches": {
+      "get": {
+        "tags": [
+          "Matches"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Match"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Match"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Match"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Matches/schedule": {
+      "post": {
+        "tags": [
+          "Matches"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Matches/update-bracket": {
+      "post": {
+        "tags": [
+          "Matches"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Teams/register": {
       "post": {
         "tags": [
@@ -153,6 +215,48 @@
   },
   "components": {
     "schemas": {
+      "Match": {
+        "type": "object",
+        "properties": {
+          "matchId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "homeTeamId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "homeTeam": {
+            "$ref": "#/components/schemas/Team"
+          },
+          "awayTeamId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "awayTeam": {
+            "$ref": "#/components/schemas/Team"
+          },
+          "matchDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "homeScore": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "awayScore": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "round": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "Player": {
         "type": "object",
         "properties": {
@@ -171,9 +275,6 @@
           "teamId": {
             "type": "integer",
             "format": "int32"
-          },
-          "team": {
-            "$ref": "#/components/schemas/Team"
           }
         },
         "additionalProperties": false

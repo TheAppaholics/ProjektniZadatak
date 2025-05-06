@@ -1,5 +1,45 @@
 [
   {
+    "ContainingType": "TeamRegistrationApi.Controllers.MatchesController",
+    "Method": "GetMatches",
+    "RelativePath": "api/Matches",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[TeamRegistrationApi.Models.Match, TeamRegistrationApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TeamRegistrationApi.Controllers.MatchesController",
+    "Method": "ScheduleMatches",
+    "RelativePath": "api/Matches/schedule",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeamRegistrationApi.Controllers.MatchesController",
+    "Method": "UpdateBracket",
+    "RelativePath": "api/Matches/update-bracket",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "TeamRegistrationApi.Controllers.TeamsController",
     "Method": "GetTeams",
     "RelativePath": "api/Teams",

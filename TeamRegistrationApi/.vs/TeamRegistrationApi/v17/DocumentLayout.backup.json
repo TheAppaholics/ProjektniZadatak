@@ -1,41 +1,57 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\ramu\\ftm - backend\\TeamRegistrationApi\\",
+  "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\trapp\\ProjektniZadatak\\TeamRegistrationApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BED288B8-675A-4100-98C4-45BDBE5C2B7F}|TeamRegistrationApi\\TeamRegistrationApi.csproj|c:\\users\\hp\\desktop\\ramu\\ftm - backend\\teamregistrationapi\\teamregistrationapi\\controllers\\teamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BED288B8-675A-4100-98C4-45BDBE5C2B7F}|TeamRegistrationApi\\TeamRegistrationApi.csproj|solutionrelative:teamregistrationapi\\controllers\\teamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BED288B8-675A-4100-98C4-45BDBE5C2B7F}|TeamRegistrationApi\\TeamRegistrationApi.csproj|c:\\users\\hp\\desktop\\trapp\\projektnizadatak\\teamregistrationapi\\teamregistrationapi\\controllers\\matchescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BED288B8-675A-4100-98C4-45BDBE5C2B7F}|TeamRegistrationApi\\TeamRegistrationApi.csproj|solutionrelative:teamregistrationapi\\controllers\\matchescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BED288B8-675A-4100-98C4-45BDBE5C2B7F}|TeamRegistrationApi\\TeamRegistrationApi.csproj|c:\\users\\hp\\desktop\\ramu\\ftm - backend\\teamregistrationapi\\teamregistrationapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BED288B8-675A-4100-98C4-45BDBE5C2B7F}|TeamRegistrationApi\\TeamRegistrationApi.csproj|solutionrelative:teamregistrationapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BED288B8-675A-4100-98C4-45BDBE5C2B7F}|TeamRegistrationApi\\TeamRegistrationApi.csproj|c:\\users\\hp\\desktop\\ramu\\ftm - backend\\teamregistrationapi\\teamregistrationapi\\teamregistrationapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{BED288B8-675A-4100-98C4-45BDBE5C2B7F}|TeamRegistrationApi\\TeamRegistrationApi.csproj|solutionrelative:teamregistrationapi\\teamregistrationapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BED288B8-675A-4100-98C4-45BDBE5C2B7F}|TeamRegistrationApi\\TeamRegistrationApi.csproj|c:\\users\\hp\\desktop\\ramu\\ftm - backend\\teamregistrationapi\\teamregistrationapi\\models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BED288B8-675A-4100-98C4-45BDBE5C2B7F}|TeamRegistrationApi\\TeamRegistrationApi.csproj|solutionrelative:teamregistrationapi\\models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BED288B8-675A-4100-98C4-45BDBE5C2B7F}|TeamRegistrationApi\\TeamRegistrationApi.csproj|c:\\users\\hp\\desktop\\ramu\\ftm - backend\\teamregistrationapi\\teamregistrationapi\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BED288B8-675A-4100-98C4-45BDBE5C2B7F}|TeamRegistrationApi\\TeamRegistrationApi.csproj|c:\\users\\hp\\desktop\\trapp\\projektnizadatak\\teamregistrationapi\\teamregistrationapi\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BED288B8-675A-4100-98C4-45BDBE5C2B7F}|TeamRegistrationApi\\TeamRegistrationApi.csproj|solutionrelative:teamregistrationapi\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BED288B8-675A-4100-98C4-45BDBE5C2B7F}|TeamRegistrationApi\\TeamRegistrationApi.csproj|c:\\users\\hp\\desktop\\ramu\\ftm - backend\\teamregistrationapi\\teamregistrationapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BED288B8-675A-4100-98C4-45BDBE5C2B7F}|TeamRegistrationApi\\TeamRegistrationApi.csproj|c:\\users\\hp\\desktop\\trapp\\projektnizadatak\\teamregistrationapi\\teamregistrationapi\\models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BED288B8-675A-4100-98C4-45BDBE5C2B7F}|TeamRegistrationApi\\TeamRegistrationApi.csproj|solutionrelative:teamregistrationapi\\models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BED288B8-675A-4100-98C4-45BDBE5C2B7F}|TeamRegistrationApi\\TeamRegistrationApi.csproj|c:\\users\\hp\\desktop\\trapp\\projektnizadatak\\teamregistrationapi\\teamregistrationapi\\controllers\\teamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BED288B8-675A-4100-98C4-45BDBE5C2B7F}|TeamRegistrationApi\\TeamRegistrationApi.csproj|solutionrelative:teamregistrationapi\\controllers\\teamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BED288B8-675A-4100-98C4-45BDBE5C2B7F}|TeamRegistrationApi\\TeamRegistrationApi.csproj|c:\\users\\hp\\desktop\\trapp\\projektnizadatak\\teamregistrationapi\\teamregistrationapi\\models\\match.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BED288B8-675A-4100-98C4-45BDBE5C2B7F}|TeamRegistrationApi\\TeamRegistrationApi.csproj|solutionrelative:teamregistrationapi\\models\\match.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BED288B8-675A-4100-98C4-45BDBE5C2B7F}|TeamRegistrationApi\\TeamRegistrationApi.csproj|c:\\users\\hp\\desktop\\trapp\\projektnizadatak\\teamregistrationapi\\teamregistrationapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BED288B8-675A-4100-98C4-45BDBE5C2B7F}|TeamRegistrationApi\\TeamRegistrationApi.csproj|solutionrelative:teamregistrationapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BED288B8-675A-4100-98C4-45BDBE5C2B7F}|TeamRegistrationApi\\TeamRegistrationApi.csproj|c:\\users\\hp\\desktop\\ramu\\ftm - backend\\teamregistrationapi\\teamregistrationapi\\migrations\\20250405203047_addtournamentdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BED288B8-675A-4100-98C4-45BDBE5C2B7F}|TeamRegistrationApi\\TeamRegistrationApi.csproj|c:\\users\\hp\\desktop\\trapp\\projektnizadatak\\teamregistrationapi\\teamregistrationapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BED288B8-675A-4100-98C4-45BDBE5C2B7F}|TeamRegistrationApi\\TeamRegistrationApi.csproj|solutionrelative:teamregistrationapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BED288B8-675A-4100-98C4-45BDBE5C2B7F}|TeamRegistrationApi\\TeamRegistrationApi.csproj|c:\\users\\hp\\desktop\\trapp\\projektnizadatak\\teamregistrationapi\\teamregistrationapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BED288B8-675A-4100-98C4-45BDBE5C2B7F}|TeamRegistrationApi\\TeamRegistrationApi.csproj|solutionrelative:teamregistrationapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BED288B8-675A-4100-98C4-45BDBE5C2B7F}|TeamRegistrationApi\\TeamRegistrationApi.csproj|c:\\users\\hp\\desktop\\trapp\\projektnizadatak\\teamregistrationapi\\teamregistrationapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BED288B8-675A-4100-98C4-45BDBE5C2B7F}|TeamRegistrationApi\\TeamRegistrationApi.csproj|solutionrelative:teamregistrationapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BED288B8-675A-4100-98C4-45BDBE5C2B7F}|TeamRegistrationApi\\TeamRegistrationApi.csproj|c:\\users\\hp\\desktop\\trapp\\projektnizadatak\\teamregistrationapi\\teamregistrationapi\\teamregistrationapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BED288B8-675A-4100-98C4-45BDBE5C2B7F}|TeamRegistrationApi\\TeamRegistrationApi.csproj|solutionrelative:teamregistrationapi\\teamregistrationapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BED288B8-675A-4100-98C4-45BDBE5C2B7F}|TeamRegistrationApi\\TeamRegistrationApi.csproj|c:\\users\\hp\\desktop\\trapp\\projektnizadatak\\teamregistrationapi\\teamregistrationapi\\migrations\\20250405203047_addtournamentdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BED288B8-675A-4100-98C4-45BDBE5C2B7F}|TeamRegistrationApi\\TeamRegistrationApi.csproj|solutionrelative:teamregistrationapi\\migrations\\20250405203047_addtournamentdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BED288B8-675A-4100-98C4-45BDBE5C2B7F}|TeamRegistrationApi\\TeamRegistrationApi.csproj|c:\\users\\hp\\desktop\\ramu\\ftm - backend\\teamregistrationapi\\teamregistrationapi\\migrations\\20250405202427_addtournamentandplayerage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BED288B8-675A-4100-98C4-45BDBE5C2B7F}|TeamRegistrationApi\\TeamRegistrationApi.csproj|c:\\users\\hp\\desktop\\trapp\\projektnizadatak\\teamregistrationapi\\teamregistrationapi\\migrations\\20250405202427_addtournamentandplayerage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BED288B8-675A-4100-98C4-45BDBE5C2B7F}|TeamRegistrationApi\\TeamRegistrationApi.csproj|solutionrelative:teamregistrationapi\\migrations\\20250405202427_addtournamentandplayerage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BED288B8-675A-4100-98C4-45BDBE5C2B7F}|TeamRegistrationApi\\TeamRegistrationApi.csproj|c:\\users\\hp\\desktop\\ramu\\ftm - backend\\teamregistrationapi\\teamregistrationapi\\migrations\\20250405194834_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BED288B8-675A-4100-98C4-45BDBE5C2B7F}|TeamRegistrationApi\\TeamRegistrationApi.csproj|c:\\users\\hp\\desktop\\trapp\\projektnizadatak\\teamregistrationapi\\teamregistrationapi\\migrations\\20250405194834_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BED288B8-675A-4100-98C4-45BDBE5C2B7F}|TeamRegistrationApi\\TeamRegistrationApi.csproj|solutionrelative:teamregistrationapi\\migrations\\20250405194834_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -46,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,65 +70,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ramu\\ftm - backend\\TeamRegistrationApi\\TeamRegistrationApi\\Program.cs",
-              "RelativeDocumentMoniker": "TeamRegistrationApi\\Program.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\ramu\\ftm - backend\\TeamRegistrationApi\\TeamRegistrationApi\\Program.cs",
-              "RelativeToolTip": "TeamRegistrationApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "MatchesController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\trapp\\ProjektniZadatak\\TeamRegistrationApi\\TeamRegistrationApi\\Controllers\\MatchesController.cs",
+              "RelativeDocumentMoniker": "TeamRegistrationApi\\Controllers\\MatchesController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\trapp\\ProjektniZadatak\\TeamRegistrationApi\\TeamRegistrationApi\\Controllers\\MatchesController.cs*",
+              "RelativeToolTip": "TeamRegistrationApi\\Controllers\\MatchesController.cs*",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T19:34:55.194Z",
+              "WhenOpened": "2025-05-05T14:18:30.983Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ramu\\ftm - backend\\TeamRegistrationApi\\TeamRegistrationApi\\Models\\Player.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\trapp\\ProjektniZadatak\\TeamRegistrationApi\\TeamRegistrationApi\\Models\\Player.cs",
               "RelativeDocumentMoniker": "TeamRegistrationApi\\Models\\Player.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\ramu\\ftm - backend\\TeamRegistrationApi\\TeamRegistrationApi\\Models\\Player.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\trapp\\ProjektniZadatak\\TeamRegistrationApi\\TeamRegistrationApi\\Models\\Player.cs",
               "RelativeToolTip": "TeamRegistrationApi\\Models\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-05T19:30:38.032Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Team.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ramu\\ftm - backend\\TeamRegistrationApi\\TeamRegistrationApi\\Models\\Team.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\trapp\\ProjektniZadatak\\TeamRegistrationApi\\TeamRegistrationApi\\Models\\Team.cs",
               "RelativeDocumentMoniker": "TeamRegistrationApi\\Models\\Team.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\ramu\\ftm - backend\\TeamRegistrationApi\\TeamRegistrationApi\\Models\\Team.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\trapp\\ProjektniZadatak\\TeamRegistrationApi\\TeamRegistrationApi\\Models\\Team.cs",
               "RelativeToolTip": "TeamRegistrationApi\\Models\\Team.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-05T19:30:18.36Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TeamRegistrationApi.csproj",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ramu\\ftm - backend\\TeamRegistrationApi\\TeamRegistrationApi\\TeamRegistrationApi.csproj",
-              "RelativeDocumentMoniker": "TeamRegistrationApi\\TeamRegistrationApi.csproj",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\ramu\\ftm - backend\\TeamRegistrationApi\\TeamRegistrationApi\\TeamRegistrationApi.csproj",
-              "RelativeToolTip": "TeamRegistrationApi\\TeamRegistrationApi.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-05T19:31:51.433Z",
+              "DocumentIndex": 4,
+              "Title": "Match.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\trapp\\ProjektniZadatak\\TeamRegistrationApi\\TeamRegistrationApi\\Models\\Match.cs",
+              "RelativeDocumentMoniker": "TeamRegistrationApi\\Models\\Match.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\trapp\\ProjektniZadatak\\TeamRegistrationApi\\TeamRegistrationApi\\Models\\Match.cs",
+              "RelativeToolTip": "TeamRegistrationApi\\Models\\Match.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T13:46:48.83Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "TeamsController.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ramu\\ftm - backend\\TeamRegistrationApi\\TeamRegistrationApi\\Controllers\\TeamsController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\trapp\\ProjektniZadatak\\TeamRegistrationApi\\TeamRegistrationApi\\Controllers\\TeamsController.cs",
               "RelativeDocumentMoniker": "TeamRegistrationApi\\Controllers\\TeamsController.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\ramu\\ftm - backend\\TeamRegistrationApi\\TeamRegistrationApi\\Controllers\\TeamsController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\trapp\\ProjektniZadatak\\TeamRegistrationApi\\TeamRegistrationApi\\Controllers\\TeamsController.cs",
               "RelativeToolTip": "TeamRegistrationApi\\Controllers\\TeamsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAcwE8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-05T19:45:47.338Z",
               "EditorCaption": ""
@@ -121,22 +137,73 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ramu\\ftm - backend\\TeamRegistrationApi\\TeamRegistrationApi\\Data\\ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\trapp\\ProjektniZadatak\\TeamRegistrationApi\\TeamRegistrationApi\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "TeamRegistrationApi\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\ramu\\ftm - backend\\TeamRegistrationApi\\TeamRegistrationApi\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\trapp\\ProjektniZadatak\\TeamRegistrationApi\\TeamRegistrationApi\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "TeamRegistrationApi\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-05T19:32:24.265Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\trapp\\ProjektniZadatak\\TeamRegistrationApi\\TeamRegistrationApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "TeamRegistrationApi\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\trapp\\ProjektniZadatak\\TeamRegistrationApi\\TeamRegistrationApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "TeamRegistrationApi\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T14:18:47.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\trapp\\ProjektniZadatak\\TeamRegistrationApi\\TeamRegistrationApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "TeamRegistrationApi\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\trapp\\ProjektniZadatak\\TeamRegistrationApi\\TeamRegistrationApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "TeamRegistrationApi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-05T14:14:00.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\trapp\\ProjektniZadatak\\TeamRegistrationApi\\TeamRegistrationApi\\appsettings.json",
+              "RelativeDocumentMoniker": "TeamRegistrationApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\trapp\\ProjektniZadatak\\TeamRegistrationApi\\TeamRegistrationApi\\appsettings.json",
+              "RelativeToolTip": "TeamRegistrationApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-05T13:58:08.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TeamRegistrationApi.csproj",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\trapp\\ProjektniZadatak\\TeamRegistrationApi\\TeamRegistrationApi\\TeamRegistrationApi.csproj",
+              "RelativeDocumentMoniker": "TeamRegistrationApi\\TeamRegistrationApi.csproj",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\trapp\\ProjektniZadatak\\TeamRegistrationApi\\TeamRegistrationApi\\TeamRegistrationApi.csproj",
+              "RelativeToolTip": "TeamRegistrationApi\\TeamRegistrationApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-05T19:31:51.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "20250405194834_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ramu\\ftm - backend\\TeamRegistrationApi\\TeamRegistrationApi\\Migrations\\20250405194834_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\trapp\\ProjektniZadatak\\TeamRegistrationApi\\TeamRegistrationApi\\Migrations\\20250405194834_InitialCreate.cs",
               "RelativeDocumentMoniker": "TeamRegistrationApi\\Migrations\\20250405194834_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\ramu\\ftm - backend\\TeamRegistrationApi\\TeamRegistrationApi\\Migrations\\20250405194834_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\trapp\\ProjektniZadatak\\TeamRegistrationApi\\TeamRegistrationApi\\Migrations\\20250405194834_InitialCreate.cs",
               "RelativeToolTip": "TeamRegistrationApi\\Migrations\\20250405194834_InitialCreate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -144,11 +211,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "20250405203047_AddTournamentDate.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ramu\\ftm - backend\\TeamRegistrationApi\\TeamRegistrationApi\\Migrations\\20250405203047_AddTournamentDate.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\trapp\\ProjektniZadatak\\TeamRegistrationApi\\TeamRegistrationApi\\Migrations\\20250405203047_AddTournamentDate.cs",
               "RelativeDocumentMoniker": "TeamRegistrationApi\\Migrations\\20250405203047_AddTournamentDate.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\ramu\\ftm - backend\\TeamRegistrationApi\\TeamRegistrationApi\\Migrations\\20250405203047_AddTournamentDate.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\trapp\\ProjektniZadatak\\TeamRegistrationApi\\TeamRegistrationApi\\Migrations\\20250405203047_AddTournamentDate.cs",
               "RelativeToolTip": "TeamRegistrationApi\\Migrations\\20250405203047_AddTournamentDate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -156,11 +223,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "20250405202427_AddTournamentAndPlayerAge.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ramu\\ftm - backend\\TeamRegistrationApi\\TeamRegistrationApi\\Migrations\\20250405202427_AddTournamentAndPlayerAge.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\trapp\\ProjektniZadatak\\TeamRegistrationApi\\TeamRegistrationApi\\Migrations\\20250405202427_AddTournamentAndPlayerAge.cs",
               "RelativeDocumentMoniker": "TeamRegistrationApi\\Migrations\\20250405202427_AddTournamentAndPlayerAge.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\ramu\\ftm - backend\\TeamRegistrationApi\\TeamRegistrationApi\\Migrations\\20250405202427_AddTournamentAndPlayerAge.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\trapp\\ProjektniZadatak\\TeamRegistrationApi\\TeamRegistrationApi\\Migrations\\20250405202427_AddTournamentAndPlayerAge.cs",
               "RelativeToolTip": "TeamRegistrationApi\\Migrations\\20250405202427_AddTournamentAndPlayerAge.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
