@@ -1,5 +1,51 @@
 [
   {
+    "ContainingType": "LeaderboardAPI.Controllers.LeaderboardController",
+    "Method": "GetAll",
+    "RelativePath": "api/Leaderboard/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LeaderboardAPI.Controllers.LeaderboardController",
+    "Method": "GetLeaderboard",
+    "RelativePath": "api/Leaderboard/standings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[LeaderboardAPI.Models.LeaderboardEntry, TeamRegistrationApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LeaderboardAPI.Controllers.LeaderboardController",
+    "Method": "Update",
+    "RelativePath": "api/Leaderboard/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "results",
+        "Type": "System.Collections.Generic.List\u00601[[LeaderboardAPI.Models.MatchResult, TeamRegistrationApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "TeamRegistrationApi.Controllers.TeamsController",
     "Method": "GetTeams",
     "RelativePath": "api/Teams",
