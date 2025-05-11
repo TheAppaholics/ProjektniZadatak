@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\Desktop\\projekat\\TeamRegistrationApi\\TeamRegistrationApi\\TeamRegistrationApi.csproj": {}
+    "C:\\Users\\DELL\\source\\repos\\ProjektniZadatak\\TeamRegistrationApi\\TeamRegistrationApi\\TeamRegistrationApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\Desktop\\projekat\\TeamRegistrationApi\\TeamRegistrationApi\\TeamRegistrationApi.csproj": {
+    "C:\\Users\\DELL\\source\\repos\\ProjektniZadatak\\TeamRegistrationApi\\TeamRegistrationApi\\TeamRegistrationApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Desktop\\projekat\\TeamRegistrationApi\\TeamRegistrationApi\\TeamRegistrationApi.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\ProjektniZadatak\\TeamRegistrationApi\\TeamRegistrationApi\\TeamRegistrationApi.csproj",
         "projectName": "TeamRegistrationApi",
-        "projectPath": "C:\\Users\\HP\\Desktop\\projekat\\TeamRegistrationApi\\TeamRegistrationApi\\TeamRegistrationApi.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Desktop\\projekat\\TeamRegistrationApi\\TeamRegistrationApi\\obj\\",
+        "projectPath": "C:\\Users\\DELL\\source\\repos\\ProjektniZadatak\\TeamRegistrationApi\\TeamRegistrationApi\\TeamRegistrationApi.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\source\\repos\\ProjektniZadatak\\TeamRegistrationApi\\TeamRegistrationApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -87,24 +87,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.15, 8.0.15]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[8.0.15, 8.0.15]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.15, 8.0.15]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.15, 8.0.15]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
