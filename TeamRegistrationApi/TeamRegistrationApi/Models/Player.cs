@@ -1,4 +1,7 @@
-﻿namespace TeamRegistrationApi.Models
+﻿using Microsoft.AspNetCore.Mvc.ModelBinding;
+using System.Text.Json.Serialization;
+
+namespace TeamRegistrationApi.Models
 {
     public class Player
     {
@@ -7,6 +10,9 @@
 
         public int Age { get; set; }
         public int TeamId { get; set; }
-        public Team Team { get; set; }
+
+        [JsonIgnore]
+        [BindNever]                // ne očekuj ni u model bindingu
+        public Team? Team { get; set; }
     }
 }
