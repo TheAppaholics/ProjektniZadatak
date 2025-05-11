@@ -1,13 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using TeamRegistrationApi.Data;
 using TeamRegistrationApi.Models;
+using TeamRegistrationApi.Data;
 
 namespace TeamRegistrationApi.Controllers
 {
-
-    
-
     [Route("api/[controller]")]
     [ApiController]
     public class MatchesController : ControllerBase
@@ -60,9 +57,8 @@ namespace TeamRegistrationApi.Controllers
 
             return Ok(matches);
         }
-    
 
-    [HttpPost("update-bracket")]
+        [HttpPost("update-bracket")]
         public async Task<IActionResult> UpdateBracket()
         {
             var completedMatches = await _context.Matches
@@ -75,11 +71,13 @@ namespace TeamRegistrationApi.Controllers
             {
                 if (match.HomeScore > match.AwayScore)
                 {
-                    winners.Add(await _context.Teams.FindAsync(match.HomeTeamId));
+                    var homeTeam = await _context.Teams.FindAsync(match.HomeTeamId);
+                    if (homeTeam != null) winners.Add(homeTeam);
                 }
                 else
                 {
-                    winners.Add(await _context.Teams.FindAsync(match.AwayTeamId));
+                    var awayTeam = await _context.Teams.FindAsync(match.AwayTeamId);
+                    if (awayTeam != null) winners.Add(awayTeam);
                 }
             }
 
@@ -109,6 +107,5 @@ namespace TeamRegistrationApi.Controllers
 
             return Ok(newMatches);
         }
-
     }
 }
