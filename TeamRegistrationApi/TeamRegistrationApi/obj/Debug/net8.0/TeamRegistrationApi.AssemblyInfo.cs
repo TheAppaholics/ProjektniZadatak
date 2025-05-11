@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TeamRegistrationApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+319a98e3ec80ccf216fc1bae56ae5408e7ba84b0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+71bd61102941c29e118f422ac4804a4e82f98ad6")]
 [assembly: System.Reflection.AssemblyProductAttribute("TeamRegistrationApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TeamRegistrationApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
