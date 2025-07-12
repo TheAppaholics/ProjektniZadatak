@@ -126,50 +126,7 @@
             </VerticalStackLayout>
         </ScrollView>
 
-        <!-- Donji Grid sa dugmadima -->
-        <Grid Grid.Row="1" HeightRequest="70" BackgroundColor="#228B22" HorizontalOptions="FillAndExpand" VerticalOptions="End" Margin="0,0,0,10">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="*" />
-            </Grid.ColumnDefinitions>
-
-            <!-- Dugme za korisnika -->
-            <ImageButton Source="user.png"
-                         Grid.Column="0"
-                         BackgroundColor="#006400"
-                         CornerRadius="25"
-                         WidthRequest="50"
-                         HeightRequest="50"
-                         Padding="10"
-                         HorizontalOptions="Center"
-                         Clicked="OnUserClicked"
-                         VerticalOptions="Center" />
-
-            <!-- Dugme za početnu stranicu -->
-            <ImageButton Source="home.png"
-                         Grid.Column="1"
-                         BackgroundColor="#006400"
-                         CornerRadius="25"
-                         WidthRequest="50"
-                         HeightRequest="50"
-                         Padding="10"
-                         HorizontalOptions="Center"
-                         Clicked="OnHomeClicked"
-                         VerticalOptions="Center" />
-
-            <!-- Dugme za raspored -->
-            <ImageButton Source="calendar.png"
-                         Grid.Column="2"
-                         BackgroundColor="#006400"
-                         CornerRadius="25"
-                         WidthRequest="50"
-                         HeightRequest="50"
-                         Padding="10"
-                         HorizontalOptions="Center"
-                         Clicked="OnScheduleClicked"
-                         VerticalOptions="Center" />
-        </Grid>
+       
 
     </Grid>
 </ContentPage>

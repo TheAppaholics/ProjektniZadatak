@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\projekat\\TeamRegistrationApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{94E8A7F9-AA8F-4200-9D05-D00DD0D31001}|MauiApp1\\MauiApp1.csproj|c:\\users\\hp\\desktop\\projekat\\teamregistrationapi\\mauiapp1\\pages\\matchdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{94E8A7F9-AA8F-4200-9D05-D00DD0D31001}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\pages\\matchdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94E8A7F9-AA8F-4200-9D05-D00DD0D31001}|MauiApp1\\MauiApp1.csproj|c:\\users\\hp\\desktop\\projekat\\teamregistrationapi\\mauiapp1\\pages\\matchdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94E8A7F9-AA8F-4200-9D05-D00DD0D31001}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\pages\\matchdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{94E8A7F9-AA8F-4200-9D05-D00DD0D31001}|MauiApp1\\MauiApp1.csproj|c:\\users\\hp\\desktop\\projekat\\teamregistrationapi\\mauiapp1\\pages\\teamlistpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{94E8A7F9-AA8F-4200-9D05-D00DD0D31001}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\pages\\teamlistpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,14 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{94E8A7F9-AA8F-4200-9D05-D00DD0D31001}|MauiApp1\\MauiApp1.csproj|c:\\users\\hp\\desktop\\projekat\\teamregistrationapi\\mauiapp1\\pages\\teamregistrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{94E8A7F9-AA8F-4200-9D05-D00DD0D31001}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\pages\\teamregistrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94E8A7F9-AA8F-4200-9D05-D00DD0D31001}|MauiApp1\\MauiApp1.csproj|c:\\users\\hp\\desktop\\projekat\\teamregistrationapi\\mauiapp1\\pages\\matchdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{94E8A7F9-AA8F-4200-9D05-D00DD0D31001}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\pages\\matchdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94E8A7F9-AA8F-4200-9D05-D00DD0D31001}|MauiApp1\\MauiApp1.csproj|c:\\users\\hp\\desktop\\projekat\\teamregistrationapi\\mauiapp1\\pages\\matchdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94E8A7F9-AA8F-4200-9D05-D00DD0D31001}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\pages\\matchdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{94E8A7F9-AA8F-4200-9D05-D00DD0D31001}|MauiApp1\\MauiApp1.csproj|c:\\users\\hp\\desktop\\projekat\\teamregistrationapi\\mauiapp1\\pages\\livematchespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -363,45 +363,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "TeamRegistrationPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\projekat\\TeamRegistrationApi\\MauiApp1\\Pages\\TeamRegistrationPage.xaml.cs",
-              "RelativeDocumentMoniker": "MauiApp1\\Pages\\TeamRegistrationPage.xaml.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\projekat\\TeamRegistrationApi\\MauiApp1\\Pages\\TeamRegistrationPage.xaml.cs",
-              "RelativeToolTip": "MauiApp1\\Pages\\TeamRegistrationPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T19:48:40.268Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "TeamListPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\projekat\\TeamRegistrationApi\\MauiApp1\\Pages\\TeamListPage.xaml.cs",
               "RelativeDocumentMoniker": "MauiApp1\\Pages\\TeamListPage.xaml.cs",
               "ToolTip": "C:\\Users\\HP\\Desktop\\projekat\\TeamRegistrationApi\\MauiApp1\\Pages\\TeamListPage.xaml.cs",
               "RelativeToolTip": "MauiApp1\\Pages\\TeamListPage.xaml.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAIwCYAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAIwBgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-26T20:20:41.484Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "MatchDetailPage.xaml",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\projekat\\TeamRegistrationApi\\MauiApp1\\Pages\\MatchDetailPage.xaml",
               "RelativeDocumentMoniker": "MauiApp1\\Pages\\MatchDetailPage.xaml",
               "ToolTip": "C:\\Users\\HP\\Desktop\\projekat\\TeamRegistrationApi\\MauiApp1\\Pages\\MatchDetailPage.xaml",
               "RelativeToolTip": "MauiApp1\\Pages\\MatchDetailPage.xaml",
-              "ViewState": "AgIAAIEAAAAAAAAAAAAAAKgAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAUwK8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-06-29T12:33:04.701Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "TeamRegistrationPage.xaml",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\projekat\\TeamRegistrationApi\\MauiApp1\\Pages\\TeamRegistrationPage.xaml",
               "RelativeDocumentMoniker": "MauiApp1\\Pages\\TeamRegistrationPage.xaml",
@@ -414,7 +401,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "MatchDetailPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\projekat\\TeamRegistrationApi\\MauiApp1\\Pages\\MatchDetailPage.xaml.cs",
               "RelativeDocumentMoniker": "MauiApp1\\Pages\\MatchDetailPage.xaml.cs",
@@ -423,6 +410,19 @@
               "ViewState": "AgIAAJcAAAAAAAAAAAAqwI4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-29T12:33:29.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TeamRegistrationPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\projekat\\TeamRegistrationApi\\MauiApp1\\Pages\\TeamRegistrationPage.xaml.cs",
+              "RelativeDocumentMoniker": "MauiApp1\\Pages\\TeamRegistrationPage.xaml.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\projekat\\TeamRegistrationApi\\MauiApp1\\Pages\\TeamRegistrationPage.xaml.cs",
+              "RelativeToolTip": "MauiApp1\\Pages\\TeamRegistrationPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T19:48:40.268Z",
               "EditorCaption": ""
             },
             {
