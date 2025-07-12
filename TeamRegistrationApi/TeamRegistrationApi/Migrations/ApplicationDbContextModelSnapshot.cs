@@ -51,6 +51,31 @@ namespace TeamRegistrationApi.Migrations
                     b.ToTable("Match");
                 });
 
+            modelBuilder.Entity("TeamRegistrationApi.Models.MatchRoundResult", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int?>("AwayScore")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int?>("HomeScore")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("MatchId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("RoundNumber")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("MatchId");
+
+                    b.ToTable("MatchRoundResults");
+                });
+
             modelBuilder.Entity("TeamRegistrationApi.Models.Player", b =>
                 {
                     b.Property<int>("Id")
@@ -142,6 +167,17 @@ namespace TeamRegistrationApi.Migrations
                     b.Navigation("HomeTeam");
                 });
 
+            modelBuilder.Entity("TeamRegistrationApi.Models.MatchRoundResult", b =>
+                {
+                    b.HasOne("TeamRegistrationApi.Models.Match", "Match")
+                        .WithMany("RoundResults")
+                        .HasForeignKey("MatchId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Match");
+                });
+
             modelBuilder.Entity("TeamRegistrationApi.Models.Player", b =>
                 {
                     b.HasOne("TeamRegistrationApi.Models.Team", "Team")
@@ -175,6 +211,8 @@ namespace TeamRegistrationApi.Migrations
             modelBuilder.Entity("TeamRegistrationApi.Models.Match", b =>
                 {
                     b.Navigation("PlayerStatistics");
+
+                    b.Navigation("RoundResults");
                 });
 
             modelBuilder.Entity("TeamRegistrationApi.Models.Player", b =>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:sys="clr-namespace:System;assembly=netstandard"
+             x:Class="MauiApp1.Pages.TeamFormPage"
+             Title="Register Team">
+
+    <Grid RowDefinitions="Auto, *, Auto">
+
+        <!-- HEADER -->
+        <Grid HeightRequest="60" BackgroundColor="#228B22" Grid.Row="0">
+            <Label Text="Register Team"
+                   TextColor="White"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center" />
+        </Grid>
+
+        <!-- MAIN CONTENT -->
+        <ScrollView Grid.Row="1">
+            <StackLayout Padding="20" Spacing="20" BackgroundColor="#F0F0F0">
+
+                <!-- Team Name -->
+                <Frame CornerRadius="12" Padding="10" BackgroundColor="White" HasShadow="True">
+                    <Entry x:Name="TournamentNameEntry" 
+                           Placeholder="Enter team name" 
+                           PlaceholderColor="Gray" 
+                           TextColor="Black" 
+                           FontSize="16" 
+                           HeightRequest="50" />
+                </Frame>
+
+                <!-- Players Title + Add Button -->
+                <Grid ColumnDefinitions="*, Auto" VerticalOptions="Center">
+                    <Label Text="Players" 
+                           TextColor="#228B22" 
+                           FontSize="20" 
+                           FontAttributes="Bold" 
+                           VerticalOptions="Center" />
+
+                    <Frame BackgroundColor="#228B22" 
+                           CornerRadius="25"
+                           WidthRequest="50" 
+                           HeightRequest="50" 
+                           HorizontalOptions="End" 
+                           VerticalOptions="Center"
+                           HasShadow="True">
+                        <ImageButton Source="add_icon.jpg"
+                                     BackgroundColor="Transparent"
+                                     WidthRequest="30"
+                                     HeightRequest="30"
+                                     Clicked="OnAddPlayersClicked"
+                                     HorizontalOptions="Center"
+                                     VerticalOptions="Center"/>
+                    </Frame>
+                </Grid>
+
+                <!-- Players List -->
+                <StackLayout x:Name="PlayersList" Spacing="10" />
+
+                <!-- Register Button -->
+                <Button Text="Register Team"
+                        BackgroundColor="#228B22"
+                        TextColor="White"
+                        FontSize="18"
+                        FontAttributes="Bold"
+                        CornerRadius="30"
+                        HeightRequest="55"
+                        WidthRequest="250"
+                        HorizontalOptions="Center"
+                        Clicked="OnRegisterTeamClicked" />
+
+                <!-- View Teams Button -->
+                <Button Text="View Teams"
+                        BackgroundColor="#228B22"
+                        TextColor="White"
+                        FontSize="18"
+                        FontAttributes="Bold"
+                        CornerRadius="30"
+                        HeightRequest="55"
+                        WidthRequest="250"
+                        HorizontalOptions="Center"
+                        Clicked="OnViewTeamsClicked" />
+
+            </StackLayout>
+        </ScrollView>
+
+        <!-- BOTTOM NAVIGATION GRID (tvoj dodatak) -->
+        <Grid Grid.Row="2" HeightRequest="70" BackgroundColor="#228B22">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <ImageButton Source="user.png"
+                         Grid.Column="0"
+                         BackgroundColor="#006400" 
+                         CornerRadius="25"
+                         WidthRequest="50"
+                         HeightRequest="50"
+                         Padding="10"
+                         HorizontalOptions="Center"
+                         VerticalOptions="Center" />
+
+            <ImageButton Source="home.png"
+                         Grid.Column="1"
+                         BackgroundColor="#006400"   
+                         CornerRadius="25"
+                         WidthRequest="50"
+                         HeightRequest="50"
+                         Padding="10"
+                         HorizontalOptions="Center"
+                         Clicked="OnHomeClicked"
+                         VerticalOptions="Center" />
+
+            <ImageButton Source="calendar.png"
+                         Grid.Column="2"
+                         BackgroundColor="#006400"  
+                         CornerRadius="25"
+                         WidthRequest="50"
+                         HeightRequest="50"
+                         Padding="10"
+                         HorizontalOptions="Center"
+                         Clicked="OnScheduleClicked"
+                         VerticalOptions="Center" />
+        </Grid>
+
+        <!-- PLAYER POPUP -->
+        <Grid x:Name="PlayerPopup" BackgroundColor="#80000000" IsVisible="False" Grid.Row="1">
+            <Frame BackgroundColor="White" CornerRadius="12" Padding="20"
+                   VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="320" HasShadow="True">
+                <StackLayout Spacing="15">
+                    <Label Text="Add Player" FontSize="20" FontAttributes="Bold" HorizontalOptions="Center" />
+                    <Entry x:Name="PopupPlayerNameEntry" Placeholder="Player name" />
+                    <Entry x:Name="PopupPlayerAgeEntry" Placeholder="Player age" Keyboard="Numeric" />
+
+                    <StackLayout Orientation="Horizontal" VerticalOptions="Center">
+                        <CheckBox x:Name="SavePlayerCheckBox" />
+                        <Label Text="Save player" VerticalOptions="Center" />
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="15">
+                        <Button Text="Cancel" 
+                                BackgroundColor="Red" 
+                                TextColor="White" 
+                                Clicked="OnCancelPopupClicked"
+                                CornerRadius="15" />
+                        <Button Text="Add" 
+                                BackgroundColor="Green" 
+                                TextColor="White" 
+                                Clicked="OnAddPopupPlayerClicked"
+                                CornerRadius="15" />
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+        </Grid>
+
+    </Grid>
+</ContentPage>

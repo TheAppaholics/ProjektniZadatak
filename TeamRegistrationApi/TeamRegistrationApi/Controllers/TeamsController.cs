@@ -15,19 +15,28 @@ namespace TeamRegistrationApi.Controllers
         {
             _context = context;
         }
-
-        // POST: api/teams/register
         [HttpPost("register")]
-        public async Task<IActionResult> RegisterTeam([FromBody] Team team)
+        public async Task<IActionResult> RegisterTeam([FromBody] TeamRegistrationDto dto)
         {
-            if (ModelState.IsValid)
+            if (string.IsNullOrWhiteSpace(dto.Name))
             {
-                _context.Teams.Add(team);
-                await _context.SaveChangesAsync();
-                return Ok(team);
+                return BadRequest("Team name is required.");
             }
-            return BadRequest("Invalid data.");
+
+            var team = new Models.Team
+            {
+                Name = dto.Name,
+                TournamentName = "Default Tournament",  
+                TournamentDate = DateTime.Now,          
+                Players = dto.Players
+            };
+
+            _context.Teams.Add(team);
+            await _context.SaveChangesAsync();
+
+            return Ok(team);
         }
+
 
         // GET: api/teams
         [HttpGet]
@@ -46,15 +55,15 @@ namespace TeamRegistrationApi.Controllers
                 return NotFound();
             }
 
-            _context.Players.RemoveRange(team.Players); // prvo brišemo igrače
-            _context.Teams.Remove(team);                // zatim tim
+            _context.Players.RemoveRange(team.Players); 
+            _context.Teams.Remove(team);               
             await _context.SaveChangesAsync();
 
             return NoContent();
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateTeam(int id, [FromBody] Team updatedTeam)
+        public async Task<IActionResult> UpdateTeam(int id, [FromBody] Models.Team updatedTeam)
         {
             var existingTeam = await _context.Teams.Include(t => t.Players).FirstOrDefaultAsync(t => t.Id == id);
             if (existingTeam == null)
@@ -64,10 +73,8 @@ namespace TeamRegistrationApi.Controllers
 
             existingTeam.Name = updatedTeam.Name;
 
-            // Obriši stare igrače
             _context.Players.RemoveRange(existingTeam.Players);
 
-            // Dodaj nove
             existingTeam.Players = updatedTeam.Players;
 
             await _context.SaveChangesAsync();

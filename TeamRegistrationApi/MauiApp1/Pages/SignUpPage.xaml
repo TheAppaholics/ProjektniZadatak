@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.Pages.SignUpPage"
+             Title="Sign Up">
+
+    <Grid>
+
+        <Image Source="lopta.png"
+               Aspect="AspectFill"
+               Opacity="0.4" />
+
+        <ScrollView>
+            <VerticalStackLayout Spacing="20" Padding="30" BackgroundColor="#CCFFFFFF">
+
+                <Label FontSize="26" FontAttributes="Bold" HorizontalOptions="Center" Margin="0,0,0,10">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Football " TextColor="#228B22"/>
+                            <Span Text="Tournament Manager" TextColor="Black"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+
+                <Label Text="Sign Up"
+                       TextColor="Black"
+                       FontSize="22"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Start" />
+
+                <Label Text="Enter Email Address"
+                       TextColor="Black"
+                       FontSize="16"
+                       Margin="0,10,0,0"/>
+
+                <Frame CornerRadius="10" Padding="10" HasShadow="False" BorderColor="#E0E0E0" BackgroundColor="#F5F5F5">
+                    <Entry x:Name="EmailEntry"
+                           Placeholder="example@mail.com"
+                           Keyboard="Email"
+                           HeightRequest="50"
+                           PlaceholderColor="Gray"
+                           TextColor="Black" />
+                </Frame>
+
+                <Label Text="Enter Password"
+                       TextColor="Black"
+                       FontSize="16"
+                       Margin="0,10,0,0"/>
+                <Frame CornerRadius="10" Padding="10" HasShadow="False" BorderColor="#E0E0E0" BackgroundColor="#F5F5F5">
+                    <Entry x:Name="PasswordEntry"
+                           Placeholder="Enter password"
+                           IsPassword="True"
+                           HeightRequest="50"
+                           PlaceholderColor="Gray"
+                           TextColor="Black" />
+                </Frame>
+
+                <Label Text="Confirm Password"
+                       TextColor="Black"
+                       FontSize="16"
+                       Margin="0,10,0,0"/>
+                <Frame CornerRadius="10" Padding="10" HasShadow="False" BorderColor="#E0E0E0" BackgroundColor="#F5F5F5">
+                    <Entry x:Name="ConfirmPasswordEntry"
+                           Placeholder="Confirm password"
+                           IsPassword="True"
+                           HeightRequest="50"
+                           PlaceholderColor="Gray"
+                           TextColor="Black" />
+                </Frame>
+
+                <Button x:Name="RegisterButton"
+                        Text="Register"
+                        BackgroundColor="#4CAF50"
+                        TextColor="White"
+                        FontSize="18"
+                        FontAttributes="Bold"
+                        CornerRadius="25"
+                        HeightRequest="50"
+                        HorizontalOptions="Center"
+                        Clicked="OnRegisterClicked" />
+
+                <Label x:Name="MessageLabel"
+                       IsVisible="False"
+                       TextColor="Red"
+                       FontSize="14"
+                       HorizontalOptions="Center" />
+                <HorizontalStackLayout HorizontalOptions="Center" Margin="0,20,0,0">
+                    <Label Text="Already have an account? " TextColor="Black" FontSize="16" />
+                    <Label Text="Login" TextColor="Red" FontSize="16" FontAttributes="Bold">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnLoginTapped" NumberOfTapsRequired="1" />
+                        </Label.GestureRecognizers>
+                    </Label>
+                </HorizontalStackLayout>
+
+
+            </VerticalStackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>

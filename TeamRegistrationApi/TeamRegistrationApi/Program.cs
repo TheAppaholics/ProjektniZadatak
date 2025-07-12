@@ -1,4 +1,4 @@
-﻿    using LeaderboardAPI.Models;
+﻿    using TeamRegistrationApi.Models;
     using Microsoft.EntityFrameworkCore;
     using TeamRegistrationApi.Data;
 
@@ -14,12 +14,14 @@
 
 // Dodaj kontrolere i JSON reference handling
 builder.Services.AddControllers()
-        .AddJsonOptions(options =>
-        {
-            options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.Preserve;
-        });
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles;
+        options.JsonSerializerOptions.DefaultIgnoreCondition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull;
+    });
 
-    builder.Services.AddCors(options =>
+
+builder.Services.AddCors(options =>
     {
         options.AddPolicy("AllowAll", builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
     });

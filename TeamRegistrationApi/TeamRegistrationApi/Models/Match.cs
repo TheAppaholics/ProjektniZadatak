@@ -19,6 +19,7 @@ namespace TeamRegistrationApi.Models
         public Team AwayTeam { get; set; } = default!;
 
         public DateTime MatchDate { get; set; }
+
         public int? HomeScore { get; set; }
         public int? AwayScore { get; set; }
         public string Round { get; set; } = string.Empty;
@@ -26,5 +27,8 @@ namespace TeamRegistrationApi.Models
 
         // Dodano:
         public List<PlayerStatistics> PlayerStatistics { get; set; } = new();
+
+        public List<MatchRoundResult> RoundResults { get; set; } = new();
+
     }
 }

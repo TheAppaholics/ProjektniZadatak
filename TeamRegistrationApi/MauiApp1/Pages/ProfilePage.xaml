@@ -1,0 +1,93 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.Pages.ProfilePage"
+             Title="Profile"
+             BackgroundColor="#daebe0">
+
+    <Grid RowDefinitions="*, 70">
+
+        <VerticalStackLayout Padding="30" Spacing="20" HorizontalOptions="Center" VerticalOptions="Center">
+            <Frame BackgroundColor="Transparent"
+       CornerRadius="80"
+       WidthRequest="160"
+       HeightRequest="160"
+       HasShadow="True"
+       Padding="0"
+       HorizontalOptions="Center">
+                <Image Source="profil.png"
+           Aspect="AspectFill">
+                    <Image.Clip>
+                        <EllipseGeometry
+                Center="80,80"
+                RadiusX="80"
+                RadiusY="80" />
+                    </Image.Clip>
+                </Image>
+            </Frame>
+
+            <Label Text="{Binding Username}"
+       FontAttributes="Bold"
+       FontSize="18"
+       TextColor="Gray"
+       HorizontalOptions="Center" />
+
+
+            <Button Text="My tournaments"
+                    BackgroundColor="#d3d3d3"
+                    TextColor="Black"
+                    CornerRadius="25"
+                    FontSize="16"
+                    HeightRequest="50" 
+                    Clicked="OnLiveMatchesClicked"/>
+
+            <Label Text="Edit my profile"
+                   TextColor="Gray"
+                   FontSize="14"
+                   HorizontalOptions="Center"
+                   Margin="10"/>
+        </VerticalStackLayout>
+
+        <Grid Grid.Row="1" BackgroundColor="#228B22" HeightRequest="70">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <ImageButton Source="user.png"
+   Grid.Column="0"
+   BackgroundColor="#006400" 
+      CornerRadius="25"
+   WidthRequest="50"
+   HeightRequest="50"
+   Padding="10"
+   HorizontalOptions="Center"
+   Clicked="OnUserClicked"
+   VerticalOptions="Center" />
+
+
+
+            <ImageButton Source="home.png"
+       Grid.Column="1"
+       BackgroundColor="#006400"   
+      CornerRadius="25"
+       WidthRequest="50"
+       HeightRequest="50"
+       Padding="10"
+       HorizontalOptions="Center"
+       Clicked="OnHomeClicked"
+       VerticalOptions="Center" />
+
+            <ImageButton Source="calendar.png"
+       Grid.Column="2"
+       BackgroundColor="#006400"  
+          CornerRadius="25"
+       WidthRequest="50"
+       HeightRequest="50"
+       Padding="10"
+       HorizontalOptions="Center"
+       Clicked="OnScheduleClicked"
+       VerticalOptions="Center" />
+        </Grid>
+    </Grid>
+</ContentPage>

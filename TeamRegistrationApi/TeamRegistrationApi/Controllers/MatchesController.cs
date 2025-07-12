@@ -17,14 +17,67 @@ namespace TeamRegistrationApi.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<List<Match>>> GetMatches()
+        public async Task<ActionResult<List<MatchDto>>> GetMatches()
         {
             var matches = await _context.Matches
                 .Include(m => m.HomeTeam)
                 .Include(m => m.AwayTeam)
+                .Include(m => m.RoundResults)
                 .ToListAsync();
-            return Ok(matches);
+
+            var matchDtos = matches.Select(m => new MatchDto
+            {
+                MatchId = m.MatchId,
+                HomeTeamName = m.HomeTeam.Name,
+                AwayTeamName = m.AwayTeam.Name,
+                MatchDate = m.MatchDate,
+                Round = m.Round,
+                HomeScore = m.RoundResults.Sum(r => r.HomeScore ?? 0),
+                AwayScore = m.RoundResults.Sum(r => r.AwayScore ?? 0),
+                RoundResults = m.RoundResults.Select(r => new MatchRoundResultDto
+                {
+                    RoundNumber = r.RoundNumber,
+                    HomeScore = r.HomeScore,
+                    AwayScore = r.AwayScore
+                }).ToList()
+            }).ToList();
+
+            return Ok(matchDtos);
         }
+
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<MatchDto>> GetMatch(int id)
+        {
+            var match = await _context.Matches
+                .Include(m => m.HomeTeam)
+                .Include(m => m.AwayTeam)
+                .Include(m => m.RoundResults)
+                .FirstOrDefaultAsync(m => m.MatchId == id);
+
+            if (match == null)
+                return NotFound();
+
+            var matchDto = new MatchDto
+            {
+                MatchId = match.MatchId,
+                HomeTeamName = match.HomeTeam.Name,
+                AwayTeamName = match.AwayTeam.Name,
+                MatchDate = match.MatchDate,
+                Round = match.Round,
+                HomeScore = match.RoundResults.Sum(r => r.HomeScore ?? 0),
+                AwayScore = match.RoundResults.Sum(r => r.AwayScore ?? 0),
+                RoundResults = match.RoundResults.Select(r => new MatchRoundResultDto
+                {
+                    RoundNumber = r.RoundNumber,
+                    HomeScore = r.HomeScore,
+                    AwayScore = r.AwayScore
+                }).ToList()
+            };
+
+            return Ok(matchDto);
+        }
+
 
         [HttpPost("schedule")]
         public async Task<IActionResult> ScheduleMatches()
@@ -33,7 +86,7 @@ namespace TeamRegistrationApi.Controllers
 
             if (teams.Count < 2)
             {
-                return BadRequest("Nedovoljno timova za zakazivanje utakmica.");
+                return BadRequest("Not enough teams to schedule matches.");
             }
 
             var matches = new List<Match>();
@@ -65,7 +118,7 @@ namespace TeamRegistrationApi.Controllers
                 .Where(m => m.HomeScore.HasValue && m.AwayScore.HasValue)
                 .ToListAsync();
 
-            var winners = new List<Team>();
+            var winners = new List<Models.Team>();
 
             foreach (var match in completedMatches)
             {
@@ -106,6 +159,80 @@ namespace TeamRegistrationApi.Controllers
             await _context.SaveChangesAsync();
 
             return Ok(newMatches);
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteMatch(int id)
+        {
+            var match = await _context.Matches.FindAsync(id);
+            if (match == null)
+            {
+                return NotFound();
+            }
+
+            _context.Matches.Remove(match);
+            await _context.SaveChangesAsync();
+
+            return NoContent();
+        }
+
+        [HttpPost("schedule-single")]
+        public async Task<IActionResult> ScheduleSingleMatch([FromBody] MatchDto dto)
+        {
+            if (dto.HomeTeamName == dto.AwayTeamName)
+                return BadRequest("Teams cannot be the same.");
+
+            var homeTeam = await _context.Teams.FirstOrDefaultAsync(t => t.Name == dto.HomeTeamName);
+            var awayTeam = await _context.Teams.FirstOrDefaultAsync(t => t.Name == dto.AwayTeamName);
+
+            if (homeTeam == null || awayTeam == null)
+                return BadRequest("One of the teams does not exist.");
+
+            var match = new Match
+            {
+                HomeTeamId = homeTeam.Id,
+                AwayTeamId = awayTeam.Id,
+                MatchDate = dto.MatchDate,
+                Round = dto.Round ?? "Scheduled"
+            };
+
+            _context.Matches.Add(match);
+            await _context.SaveChangesAsync();
+
+            return Ok();
+        }
+
+        [HttpPost("{matchId}/rounds")]
+        public async Task<IActionResult> AddOrUpdateRoundResult(int matchId, [FromBody] MatchRoundResultDto dto)
+        {
+            var match = await _context.Matches
+                .Include(m => m.RoundResults)
+                .FirstOrDefaultAsync(m => m.MatchId == matchId);
+
+            if (match == null)
+                return NotFound("Match not found.");
+
+            var existingRoundResult = match.RoundResults.FirstOrDefault(r => r.RoundNumber == dto.RoundNumber);
+
+            if (existingRoundResult != null)
+            {
+                existingRoundResult.HomeScore = dto.HomeScore;
+                existingRoundResult.AwayScore = dto.AwayScore;
+            }
+            else
+            {
+                var roundResult = new MatchRoundResult
+                {
+                    MatchId = matchId,
+                    RoundNumber = dto.RoundNumber,
+                    HomeScore = dto.HomeScore,
+                    AwayScore = dto.AwayScore
+                };
+                match.RoundResults.Add(roundResult);
+            }
+
+            await _context.SaveChangesAsync();
+            return Ok(match.RoundResults);
         }
     }
 }

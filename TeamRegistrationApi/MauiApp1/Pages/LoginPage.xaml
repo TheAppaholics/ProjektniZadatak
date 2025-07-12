@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.LoginPage">
+
+    <Grid>
+
+        <Image Source="lopta.png"
+               Aspect="AspectFill"
+               Opacity="4"
+               />
+        <ScrollView>
+            <VerticalStackLayout Spacing="20" Padding="30" BackgroundColor="#CCFFFFFF" >
+                <Label FontSize="26" FontAttributes="Bold" HorizontalOptions="Center">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Football " TextColor="#228B22"/>
+                            <Span Text="Tournament Manager" TextColor="Black"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+
+
+
+                <Label Text="Login"
+                       TextColor="Black"
+                       FontSize="22"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Start"
+                       Margin="0,10,0,0"/>
+
+                <Label Text="Enter Email Address"
+                       TextColor="Black"
+                       FontSize="16"
+                       Margin="0,10,0,0"/>
+
+                <Frame CornerRadius="10" Padding="10" HasShadow="False" BorderColor="#E0E0E0" BackgroundColor="#F5F5F5">
+                    <Entry x:Name="EmailEntry"
+                           Placeholder="johnny@gmail.com"
+                           Keyboard="Email"
+                           HeightRequest="50"
+                           PlaceholderColor="Gray"
+                           TextColor="Black" />
+                </Frame>
+
+                <Label Text="Enter Password"
+                       TextColor="Black"
+                       FontSize="16"
+                       Margin="0,10,0,0"/>
+                <Frame CornerRadius="10" Padding="10" HasShadow="False" BorderColor="#E0E0E0" BackgroundColor="#F5F5F5">
+                    <Entry x:Name="PasswordEntry"
+                           Placeholder="********"
+                           IsPassword="True"
+                           HeightRequest="50"
+                           PlaceholderColor="Gray"
+                           TextColor="Black" />
+                </Frame>
+
+                <Label Text="Forgot Password?"
+                       TextColor="Red"
+                       FontSize="14"
+                       HorizontalOptions="End"
+                       Margin="0,-10,0,10" />
+
+                <Button x:Name="LoginButton"
+                        Text="Login"
+                        BackgroundColor="#cc3300"
+                        TextColor="White"
+                        FontSize="18"
+                        FontAttributes="Bold"
+                        CornerRadius="25"
+                        HeightRequest="50"
+                        WidthRequest="250"
+                        HorizontalOptions="Center"
+                        Margin="0,0,0,10"
+                        Clicked="OnLoginClicked" />
+
+                <Label x:Name="MessageLabel"
+                       IsVisible="False"
+                       TextColor="Red"
+                       FontSize="14"
+                       HorizontalOptions="Center" />
+
+                <Grid Margin="0,10,0,20">
+                    <BoxView HeightRequest="1" BackgroundColor="#e0e0e0" VerticalOptions="Center" HorizontalOptions="FillAndExpand"/>
+                    <Label Text="- OR -" BackgroundColor="#CCFFFFFF" HorizontalOptions="Center" Padding="10,0" TextColor="Gray" />
+                </Grid>
+
+                <HorizontalStackLayout>
+                    <Label Text="Don't Have an Account " TextColor="Black" FontSize="16"/>
+                    <Label Text="Sign Up" TextColor="Red" FontSize="16" FontAttributes="Bold">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnSignUpTapped"/>
+                        </Label.GestureRecognizers>
+                    </Label>
+                </HorizontalStackLayout>
+
+            </VerticalStackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>

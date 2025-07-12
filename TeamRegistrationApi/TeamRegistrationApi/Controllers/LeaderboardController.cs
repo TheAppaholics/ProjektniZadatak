@@ -1,9 +1,9 @@
 ﻿using System;
-using LeaderboardAPI.Models;
+using TeamRegistrationApi.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace LeaderboardAPI.Controllers
+namespace TeamRegistrationApi.Controllers
 {
     [ApiController] // Označava da je klasa Web API kontroler
     [Route("api/[controller]")] // Definišem osnovni dio URL-a za ovaj kontroler
@@ -65,7 +65,6 @@ namespace LeaderboardAPI.Controllers
                 teamB.GoalsFor += match.ScoreB;
                 teamB.GoalsAgainst += match.ScoreA;
 
-                // Provjeravam ishod meča i ažuriram bodove, pobjede, poraze, remije
                 if (match.ScoreA > match.ScoreB)
                 {
                     teamA.Wins++;
@@ -90,14 +89,13 @@ namespace LeaderboardAPI.Controllers
                 }
             }
 
-            // Sortiram tabelu: prvo po bodovima, pa po gol-razlici, pa po nazivu tima
             var sorted = leaderboard.Values
                 .OrderByDescending(e => e.Points)
                 .ThenByDescending(e => e.GoalsFor - e.GoalsAgainst)
                 .ThenBy(e => e.TeamName)
                 .ToList();
 
-            return Ok(sorted); // Vraćam sortiranu tabelu
+            return Ok(sorted); 
         }
     }
 }

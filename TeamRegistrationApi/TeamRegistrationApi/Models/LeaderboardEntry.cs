@@ -1,4 +1,4 @@
-﻿namespace LeaderboardAPI.Models
+﻿namespace TeamRegistrationApi.Models
 {
     public class LeaderboardEntry
     {

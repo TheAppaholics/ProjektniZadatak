@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.Pages.WelcomePage"
+             BackgroundColor="White" 
+             Shell.NavBarIsVisible="True">
+    <Shell.TitleView>
+        <Grid HorizontalOptions="FillAndExpand">
+            <HorizontalStackLayout HorizontalOptions="Center">
+                <Label Text="⚽ " VerticalOptions="Center" FontSize="24"/>
+                <Label Text="Football " VerticalOptions="Center" TextColor="#228B22" FontSize="24" FontAttributes="Bold"/>
+                <Label Text="Tournament Manager" VerticalOptions="Center" TextColor="Black" FontSize="24" FontAttributes="Bold"/>
+            </HorizontalStackLayout>
+        </Grid>
+    </Shell.TitleView>
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="20"
+            Padding="30"
+            VerticalOptions="Start">
+            <Image Source="fudbaler.png"
+                   HeightRequest="200"
+                   WidthRequest="200"
+                   Aspect="AspectFit"
+                   HorizontalOptions="Center"
+                   Margin="0,0,0,20"/>
+
+            <Label Text="STAY UPDATED WITH UPCOMING"
+                   TextColor="Black"
+                   FontSize="22"
+                   FontAttributes="Bold"
+                   HorizontalTextAlignment="Center"/>
+            <Label Text="MATCHES &amp; TOURNAMENTS -"
+                   TextColor="#228B22"
+                   FontSize="22"
+                   FontAttributes="Bold"
+                   HorizontalTextAlignment="Center"/>
+            <Label Text="NEVER MISS A GAME!"
+                   TextColor="Black"
+                   FontSize="22"
+                   FontAttributes="Bold"
+                   HorizontalTextAlignment="Center"
+                   Margin="0,0,0,20"/>
+
+            <Label Text="Keep track of all the latest match and tournament updates in one place."
+                   TextColor="Gray"
+                   FontSize="14"
+                   HorizontalTextAlignment="Center"
+                   Margin="0,0,0,40"/>
+
+            <Button x:Name="LoginPageLoginButton" Text="Login"
+                    BackgroundColor="#FF4500" TextColor="White"
+                    FontSize="18"
+                    FontAttributes="Bold"
+                    CornerRadius="25"
+                    HeightRequest="50"
+                    WidthRequest="250"
+                    HorizontalOptions="Center"
+                    Margin="0,0,0,10"/>
+
+            <Button x:Name="CreateAccountButton" Text="Create Account"
+                    BackgroundColor="#228B22" TextColor="White"
+                    FontSize="18"
+                    FontAttributes="Bold"
+                    CornerRadius="25"
+                    HeightRequest="50"
+                    WidthRequest="250"
+                    HorizontalOptions="Center"
+                    Margin="0,0,0,10"/>
+
+            <Button x:Name="ContinueAsGuestButton" Text="Continue as Guest"
+                    BackgroundColor="Gray" TextColor="White"
+                    FontSize="18"
+                    FontAttributes="Bold"
+                    CornerRadius="25"
+                    HeightRequest="50"
+                    WidthRequest="250"
+                    HorizontalOptions="Center"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace LeaderboardAPI.Models
+namespace TeamRegistrationApi.Models
 {
     // Kreiram klasu AppDbContext koja nasljeđuje DbContext iz Entity Framework-a
     public class AppDbContext : DbContext

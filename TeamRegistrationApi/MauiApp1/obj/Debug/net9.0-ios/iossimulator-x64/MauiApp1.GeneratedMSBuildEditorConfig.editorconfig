@@ -1,0 +1,121 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net9.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MauiApp1
+build_property.ProjectDir = C:\Users\HP\Desktop\projekat\TeamRegistrationApi\MauiApp1\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/HP/Desktop/projekat/TeamRegistrationApi/MauiApp1/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/HP/Desktop/projekat/TeamRegistrationApi/MauiApp1/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/HP/Desktop/projekat/TeamRegistrationApi/MauiApp1/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/HP/Desktop/projekat/TeamRegistrationApi/MauiApp1/Pages/AddPlayerPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Pages.AddPlayerPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\AddPlayerPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\AddPlayerPage.xaml
+
+[C:/Users/HP/Desktop/projekat/TeamRegistrationApi/MauiApp1/Pages/LiveMatchesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Pages.LiveMatchesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\LiveMatchesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\LiveMatchesPage.xaml
+
+[C:/Users/HP/Desktop/projekat/TeamRegistrationApi/MauiApp1/Pages/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Pages.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\LoginPage.xaml
+
+[C:/Users/HP/Desktop/projekat/TeamRegistrationApi/MauiApp1/Pages/MatchDetailPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Pages.MatchDetailPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\MatchDetailPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\MatchDetailPage.xaml
+
+[C:/Users/HP/Desktop/projekat/TeamRegistrationApi/MauiApp1/Pages/MatchSchedulePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Pages.MatchSchedulePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\MatchSchedulePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\MatchSchedulePage.xaml
+
+[C:/Users/HP/Desktop/projekat/TeamRegistrationApi/MauiApp1/Pages/ProfilePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Pages.ProfilePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ProfilePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ProfilePage.xaml
+
+[C:/Users/HP/Desktop/projekat/TeamRegistrationApi/MauiApp1/Pages/SignUpPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Pages.SignUpPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\SignUpPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\SignUpPage.xaml
+
+[C:/Users/HP/Desktop/projekat/TeamRegistrationApi/MauiApp1/Pages/SplashScreenPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Pages.SplashScreenPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\SplashScreenPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\SplashScreenPage.xaml
+
+[C:/Users/HP/Desktop/projekat/TeamRegistrationApi/MauiApp1/Pages/TeamFormPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Pages.TeamFormPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\TeamFormPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\TeamFormPage.xaml
+
+[C:/Users/HP/Desktop/projekat/TeamRegistrationApi/MauiApp1/Pages/TeamListPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Pages.TeamListPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\TeamListPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\TeamListPage.xaml
+
+[C:/Users/HP/Desktop/projekat/TeamRegistrationApi/MauiApp1/Pages/TeamRegistrationPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Pages.TeamRegistrationPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\TeamRegistrationPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\TeamRegistrationPage.xaml
+
+[C:/Users/HP/Desktop/projekat/TeamRegistrationApi/MauiApp1/Pages/WelcomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Pages.WelcomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\WelcomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\WelcomePage.xaml
+
+[C:/Users/HP/Desktop/projekat/TeamRegistrationApi/MauiApp1/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/HP/Desktop/projekat/TeamRegistrationApi/MauiApp1/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
